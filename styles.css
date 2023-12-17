@@ -1,0 +1,146 @@
+
+/*<-----------------Custom font------------------------->*/
+@font-face {
+    font-family: Dmserif;
+    src: url(DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-Normal;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    text-decoration: none;
+    margin: 0px;
+}
+/**<---------------------------Header------------------------------>**/
+.header {    
+    display: flex;
+    background-color: rgb(53, 46, 46);
+    justify-content: space-between;
+    color: white;
+    border-bottom: solid 1px rgb(53, 46, 46);
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    align-items: center;
+}
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.link1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.link1 a {
+    color: rgb(255, 255, 255);
+}
+/**<-------------------Hero----------------------------->**/
+.hero {
+    display: flex;
+    justify-content: center;
+    background-image: url(assets/Images/bg.webp);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+    margin-top: 0px;
+    color: black;
+}
+.hero-title {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;  
+}
+.hero-title h2{
+    font-size: larger;  
+    border-bottom: 3px solid white;
+    margin: auto;
+    width: fit-content;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+/**<------------------------Content: Pc-deler--------------------->**/
+
+.content-pc-deler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content-cpu {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px rgb(224, 108, 108);
+    width: fit-content;
+}
+.content-motherboard {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px rgb(224, 108, 108);
+    width: fit-content;
+}
+/**<-------------Buttons---------------->**/
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color:  rgb(53, 46, 46);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+button:hover {
+    cursor: hand;
+    color: black;
+    background-color: rgb(165, 135, 135);
+    scale: 120%;
+}
+/**<------------------------Footer---------------------------------->**/
+.main-footer {
+    background-color: rgb(53, 46, 46);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  
+  }
+  .contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: small;
+    font-family: Inter-Normal;
+    margin: 50px;
+  }
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(53, 46, 46);
+    color: white;
+    flex-wrap: nowrap;
+    border-top: 1px solid white;
+    padding-top: 12px;
+    padding-bottom: 19px;
+    text-align: center  ;
+  }
+  .copyright p {
+    margin-left: 30px;
+    margin-right: 30px;
+  } 
